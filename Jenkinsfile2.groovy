@@ -18,7 +18,7 @@ pipeline {
       steps{
         
         sh '''
-        docker run -d --name=flaskapi -p 30080:5000 marcobindo/flaskapi
+        docker run -d --name=flaskapi -p 30080:5000 marcosbindo/flaskapi
         
            '''
         }
